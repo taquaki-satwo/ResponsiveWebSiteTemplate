@@ -1,0 +1,131 @@
+@charset "utf-8";
+/**
+ * sytle.css
+ * description
+ *
+ * Created by name on 2000/00/00.
+ * Copyright (c) 2000 name. All rights reserved.
+ */
+
+/**
+ * スマートフォン向けスタイル
+ */
+
+/**
+ * Baseカテゴリ
+ * 各要素のデフォルトのスタイルを定義
+ * リセットやノーマライズなど
+ */
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+body {/* フルードグリッド対応 */
+  width: 100%;
+}
+
+header {
+  /* width: (要素の固定値/親要素の固定値*100)%; */
+}
+
+nav {
+  /* width: (要素の固定値/親要素の固定値*100)%; */
+}
+
+main {
+  /* width: (要素の固定値/親要素の固定値*100)%; */
+}
+
+footer {
+  /* width: (要素の固定値/親要素の固定値*100)%; */
+}
+
+aside {
+  /* width: (要素の固定値/親要素の固定値*100)%; */
+}
+
+img {/* フルードグリッド対応 */
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Layoutカテゴリ
+ * セクション、コンテンツエリアのスタイルを定義
+ * プレフィックス'l-''
+ */
+
+
+/**
+ * Moduleカテゴリ
+ * 個々のモジュールのスタイルを定義
+ */
+
+/**
+ * Stateカテゴリ
+ * オブジェクトの状態の変化を定義
+ * メディアクエリ等
+ * プレフィックス'is-'
+ */
+@media only screen and (min-width: 769px) {
+  /**
+   * タブレット向けスタイル
+   */
+
+  /**
+   * Baseカテゴリ
+  */
+
+  /**
+   * Layoutカテゴリ
+  */
+
+  /**
+   * Moduleカテゴリ
+  */
+
+  /**
+   * Stateカテゴリ
+  */
+}
+
+@media only screen and (min-width: 961px) {
+  /**
+   * PCサイト向けスタイル
+   */
+
+  /**
+   * Baseカテゴリ
+  */
+
+  /**
+   * Layoutカテゴリ
+  */
+
+  /**
+   * Moduleカテゴリ
+  */
+
+  /**
+   * Stateカテゴリ
+  */
+}
+
+/**
+ * Themeカテゴリ
+ * テーマを定義
+ * プレフィックス'theme-'
+ */
+
+
+
+
+
