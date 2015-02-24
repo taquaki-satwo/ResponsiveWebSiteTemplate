@@ -12,9 +12,11 @@
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-body {
-  -webkit-text-size-adjust: 100%;
-}
+<style>
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+</style>
 ```
 
 を設定します。
